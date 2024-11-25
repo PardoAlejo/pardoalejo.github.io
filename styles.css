@@ -1,0 +1,177 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  color: #038332;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Centered layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header styles */
+.header {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 2rem 0;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* Add border inside the container */
+}
+
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.intro-text h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.intro-text p {
+  margin: 0.5rem 0;
+}
+
+.links a {
+  margin: 0 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Main content styles */
+.main {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.research h2 {
+  color: #038332;
+  border-bottom: 1px solid #038332;
+  width: 50%; /* Make the line only span 50% of the content width */
+  margin: 0 auto 1rem auto; /* Center it */
+  text-align: center;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+article h3 a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #038332;
+}
+
+article h3 a:hover {
+  text-decoration: underline;
+}
+
+article p {
+  margin: 0.5rem 0;
+}
+
+/* Research Section */
+.research {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.research h2 {
+  color: #038332;
+  text-align: center;
+  border-bottom: 2px solid #038332;
+  width: 50%;
+  margin: 0 auto 1rem auto;
+}
+
+.research-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.research-item .media {
+  flex: 0 0 150px; /* Fixed size for images/videos */
+  margin-right: 1rem;
+}
+
+.research-item .media img,
+.research-item .media video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Optional for rounded edges */
+}
+
+.research-item .content {
+  flex: 1;
+}
+
+.research-item .content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #0078d7;
+}
+
+.research-item .content h3 a {
+  text-decoration: none;
+}
+
+.research-item .content h3 a:hover {
+  text-decoration: underline;
+}
+
+.research-item .content p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.research-item .content p a {
+  color: #0078d7;
+  text-decoration: none;
+}
+
+.research-item .content p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd; /* Add the line inside the container */
+}
+
